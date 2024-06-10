@@ -25,6 +25,5 @@ $user = ["first_name" => "john", "last_name" => "doe"];
 
 foreach ($user as $key => $name) {
     $key = str_replace("_", " ", $key);
-
     echo "my $key is $name\n";
 }
