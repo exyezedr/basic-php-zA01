@@ -3,7 +3,6 @@
 function sayHello(): void
 {
     echo "hello\n";
-
     $create = true;
 
     if ($create) {
