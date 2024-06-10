@@ -2,7 +2,6 @@
 
 $zero = function (): int {
     $a = 10;
-
     return $a;
 };
 
