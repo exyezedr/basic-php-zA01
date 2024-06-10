@@ -23,7 +23,6 @@ function problem(int $value): void
         echo "end\n";
     } else {
         echo "$value\n";
-
         problem($value - 1);
     }
 }
