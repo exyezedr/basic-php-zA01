@@ -6,7 +6,5 @@ function increment(int &$value): void
 }
 
 $i = 1;
-
 increment($i);
-
 echo "$i\n";
