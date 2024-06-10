@@ -15,14 +15,12 @@ function sayHello(): array
 function sayHi(): string
 {
     $name = "john doe";
-
     return "hi $name";
 }
 
 function increment(): int
 {
     static $i = 1;
-
     return $i++;
 }
 
